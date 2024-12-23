@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Counting Occurrences of a Character
+        Scenario: You’re tasked with analyzing data by counting occurrences of a specific character in text.
+        Problem: Count how many times the letter 'e' appears in a given string.
+        Input: A string, e.g., text = "excellence".
+        Output: The count of occurrences of 'e'.
+        Example:
+        Input: "excellence"
+        Output: 4</h3>
+    <script>
+        let Str = prompt("Enter string:").toLowerCase();
+        let count = 0;
+        for (let i = 0; i < Str.length; i++) {
+             if (Str[i] == 'e') {
+                count++;
+            }
+            // str.charAt(i)
+        }
+        console.log(count);
+    </script>
+</body>
+
+</html>
